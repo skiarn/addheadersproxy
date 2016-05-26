@@ -30,6 +30,3 @@ import(
 
 
 ```
-
-## Run application
-./jenkins-plugins
