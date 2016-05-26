@@ -1,4 +1,4 @@
-package testtarget
+package test
 
 import (
 	"io"

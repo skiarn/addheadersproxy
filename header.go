@@ -45,7 +45,7 @@ func (hs *Headers) Set(value string) error {
 		if len(headerValue) != 2 {
 			return fmt.Errorf("header: %v expected following format: HeaderName:Value1", headers)
 		}
-		hs.headers = append(h.headers, Header{Header: headerValue[0], Value: headerValue[1]})
+		hs.headers = append(hs.headers, Header{Header: headerValue[0], Value: headerValue[1]})
 	}
 	return nil
 }

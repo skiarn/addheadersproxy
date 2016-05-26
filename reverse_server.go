@@ -14,7 +14,7 @@ import (
 var headersFlag Headers
 
 func init() {
-	flag.Var(&headersFlag, "headers", "comma-separated list of header to be applied use following format header1:value1,header2:value2")
+	flag.Var(&headersFlag, "headers", "comma-separated list of header to be applied use following format header1:value1,header2:value2, example: -headers=header1:value1,Cool-try-Hard:true")
 }
 
 //ReverseProxy takes a target URI ex. http://localhost:8000 and directs trafic there.
